@@ -1,0 +1,271 @@
+.orange {
+  color: #ff8917;
+}
+
+.green {
+  color: #91bb15;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/Light/OpenSans-Light.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/Light/OpenSans-Light.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/Light/OpenSans-Light.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/Light/OpenSans-Light.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/Light/OpenSans-Light.ttf?v=1.101) format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/LightItalic/OpenSans-LightItalic.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/LightItalic/OpenSans-LightItalic.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/LightItalic/OpenSans-LightItalic.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/LightItalic/OpenSans-LightItalic.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/LightItalic/OpenSans-LightItalic.ttf?v=1.101) format("ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/Regular/OpenSans-Regular.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/Regular/OpenSans-Regular.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/Regular/OpenSans-Regular.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/Regular/OpenSans-Regular.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/Regular/OpenSans-Regular.ttf?v=1.101) format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/Italic/OpenSans-Italic.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/Italic/OpenSans-Italic.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/Italic/OpenSans-Italic.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/Italic/OpenSans-Italic.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/Italic/OpenSans-Italic.ttf?v=1.101) format("ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/SemiBold/OpenSans-SemiBold.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBold/OpenSans-SemiBold.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBold/OpenSans-SemiBold.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBold/OpenSans-SemiBold.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBold/OpenSans-SemiBold.ttf?v=1.101) format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/SemiBoldItalic/OpenSans-SemiBoldItalic.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBoldItalic/OpenSans-SemiBoldItalic.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBoldItalic/OpenSans-SemiBoldItalic.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBoldItalic/OpenSans-SemiBoldItalic.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/SemiBoldItalic/OpenSans-SemiBoldItalic.ttf?v=1.101) format("ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/Bold/OpenSans-Bold.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/Bold/OpenSans-Bold.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/Bold/OpenSans-Bold.woff?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/Bold/OpenSans-Bold.woff?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/Bold/OpenSans-Bold.woff?v=1.101) format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/BoldItalic/OpenSans-BoldItalic.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/BoldItalic/OpenSans-BoldItalic.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/BoldItalic/OpenSans-BoldItalic.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/BoldItalic/OpenSans-BoldItalic.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/BoldItalic/OpenSans-BoldItalic.ttf?v=1.101) format("ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBold/OpenSans-ExtraBold.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBold/OpenSans-ExtraBold.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBold/OpenSans-ExtraBold.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBold/OpenSans-ExtraBold.ttf?v=1.101) format("ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2?v=1.101) format("woff2"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=1.101) format("woff"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?v=1.101) format("eot"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg?v=1.101) format("svg"), url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf?v=1.101) format("ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://statics.vntrip.vn/fonts/fa-brands-400.eot");
+  src: url("https://statics.vntrip.vn/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("https://statics.vntrip.vn/fonts/fa-brands-400.woff2") format("woff2"), url("https://statics.vntrip.vn/fonts/fa-brands-400.woff") format("woff"), url("https://statics.vntrip.vn/fonts/fa-brands-400.ttf") format("truetype"), url("https://statics.vntrip.vn/fonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://statics.vntrip.vn/fonts/fa-regular-400.eot");
+  src: url("https://statics.vntrip.vn/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("https://statics.vntrip.vn/fonts/fa-regular-400.woff2") format("woff2"), url("https://statics.vntrip.vn/fonts/fa-regular-400.woff") format("woff"), url("https://statics.vntrip.vn/fonts/fa-regular-400.ttf") format("truetype"), url("https://statics.vntrip.vn/fonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://statics.vntrip.vn/fonts/fa-solid-900.eot");
+  src: url("https://statics.vntrip.vn/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("https://statics.vntrip.vn/fonts/fa-solid-900.woff2") format("woff2"), url("https://statics.vntrip.vn/fonts/fa-solid-900.woff") format("woff"), url("https://statics.vntrip.vn/fonts/fa-solid-900.ttf") format("truetype"), url("https://statics.vntrip.vn/fonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #438dc4;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:focus {
+  outline: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+input::-moz-placeholder {
+  color: #cccccc;
+}
+input:-ms-input-placeholder {
+  color: #cccccc;
+}
+input:-moz-placeholder {
+  color: #cccccc;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select, textarea, button {
+  vertical-align: middle;
+  font-family: "Open Sans";
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}

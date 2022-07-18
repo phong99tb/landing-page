@@ -1,0 +1,122 @@
+// Font Colors
+$base-font-family:'Open Sans';
+$base-font-color:#666666;
+$base-font-weight:normal;
+$base-line-height:1.5;
+
+$color-primary: #FFd353;
+
+//Background Colors
+$white-1:#ffffff;
+$white-2:#fafafa;
+//...
+
+$black-1:#000000;
+$black-2:#222222;
+$black-3:#444444;
+$black-4:#373737;
+$black-5:#35363f;
+//...
+
+$yellow-1:#ff8917;
+$yellow-2:#fffcee;
+$yellow-3:#d99903;
+$yellow-4:#fffcf4;
+
+//...
+
+$blue-1:#438dc4;
+$blue-2:#428dc5;
+$blue-3:#2cbce6;
+$blue-4:#e2f4f9;
+$blue-5:#0b324f;
+$blue-6:#546fae;
+$blue-7:#336ce0;
+$blue-8:#d7effd;
+$blue-9:#f1f8fc;
+//...
+
+
+$red-1:#ff4d17;
+$red-2:#d0011b;
+$red-3:#ff9aa7;
+$red-4:#ffdde1;
+$red-5:#dd4d30;
+$red-6:#d92c26;
+$red-7:#f05858;
+//...
+
+$green-1:#91bb15;
+$green-2:#f3ffe0;
+$green-3:#add075;
+$green-4:#577209;
+$green-5:#5a8a0d;
+$green-6:#37a74b;
+//...
+
+$gray-1:#f1f1f1;
+$gray-2:#f5f5f5;
+$gray-3:#cccccc;
+$gray-4:#f0f0f0;
+$gray-5:#999999;
+$gray-6:#dddddd;
+$gray-7:#f8f8f8;
+$gray-8:#d8d8d8;
+$gray-9:#ededed;
+$gray-10:#dbdbdb;
+//...
+
+$pink-1:#fffde7;
+$pink-2:#ffe5e5;
+//...
+
+//Font Size
+$size-6: 6px;
+$size-8: 8px;
+$size-10:10px;
+$size-11:11px;
+$size-12:12px;
+$size-13:13px;
+$size-14:14px;
+$size-16:16px;
+$size-18:18px;
+$size-20:20px;
+$size-22:22px;
+$size-24:24px;
+$size-26:26px;
+$size-28:28px;
+$size-30:30px;
+$size-36:36px;
+$size-38:38px;
+$size-50:50px;
+$size-100:100px;
+
+//Font weight
+$light:300;
+$regular:400;
+$semibold:500;
+$bold:600;
+$tblack:700;
+$black:900;
+
+//Responsive
+$screen-gf:315px;
+$screen-xs:767px;
+$screen-sm:768px;
+$screen-md:992px;
+$screen-lg:1250px;
+
+//grid
+$screen-sm-max: ($screen-md - 1);
+$screen-md-max: ($screen-lg - 1);
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+//box-shadow
+$shadow:0 1px 3px 0 rgba(27,27,27,.1);
+
+.orange{ color:$yellow-1}
+.green{ color:$green-1}
+
+
+
